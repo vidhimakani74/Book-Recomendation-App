@@ -11,6 +11,7 @@ const bookDatabase = {
     { name: "How to Win Friends and Influence People", rating: "4.5/5" },
     { name: "Think and Grow Rich", rating: "4.18/5" }
   ],
+
   Romance: [
     { name: "The Fault in Our Stars", rating: "4.16/5" },
     { name: "The Love Hypothesis", rating: "4.28/5" },
@@ -25,10 +26,12 @@ const bookDatabase = {
 };
 
 export default function App() {
-  const [selectedGenre, setGenre] = useState("Romance");
-  function genreClickHandler(genre) {
-    setGenre(genre);
+  const [selectedType, setType] = useState("Selfhelp");
+
+  function genreClickHandler(type) {
+    setType(type);
   }
+
   return (
     <div className="App">
       <h2
@@ -41,12 +44,12 @@ export default function App() {
         {" "}
         Book Recomendation App 📖
       </h2>
-      <p style={{ fontSize: "large" }}> Here are Recomended books </p>
+      <p style={{ fontSize: "large" }}> Here are Recomended Books </p>
 
       <div>
-        {Object.keys(bookDatabase).map((genre) => (
+        {Object.keys(bookDatabase).map((type) => (
           <button
-            onClick={() => genreClickHandler(genre)}
+            onClick={() => genreClickHandler(type)}
             style={{
               background: "#d1d5db",
               borderRadius: "1rem",
@@ -55,14 +58,14 @@ export default function App() {
               margin: "3rem 0.5rem"
             }}
           >
-            {genre}
+            {type}
           </button>
         ))}
       </div>
       <hr />
       <div style={{ textAlign: "left" }}>
         <ul style={{ paddingInlineStart: "0" }}>
-          {bookDatabase[selectedGenre].map((book) => (
+          {bookDatabase[selectedType].map((book) => (
             <li
               key={book.name}
               style={{
