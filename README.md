@@ -6,10 +6,9 @@ Three suggested book types:
 2.Romance
 3.Horror
 
-it look's like..
+preview:
 
-![image](https://user-images.githubusercontent.com/100896986/201508933-9f3effd1-5671-4b62-a882-1efa316b2c07.png)
-
+https://user-images.githubusercontent.com/100896986/205555611-7a639ca1-0321-4b0d-b2fa-34266ed7e576.mp4
 
 let's try --> https://tpud2u.csb.app/
 
