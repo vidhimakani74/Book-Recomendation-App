@@ -8,7 +8,7 @@ Three suggested book types:
 
 preview:
 
-https://user-images.githubusercontent.com/100896986/205555611-7a639ca1-0321-4b0d-b2fa-34266ed7e576.mp4
+![image](https://user-images.githubusercontent.com/100896986/205808828-86c02546-04eb-45ca-9bb0-dc5172b4e33f.png)
 
 let's try --> https://3g01w0.csb.app/
 
